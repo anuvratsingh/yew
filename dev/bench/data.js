@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1641997669334,
-  "repoUrl": "https://github.com/yewstack/yew",
+  "lastUpdate": 1643057456453,
+  "repoUrl": "https://github.com/anuvratsingh/yew",
   "entries": {
     "Yew master branch benchmarks (Lower is better)": [
       {
@@ -1852,6 +1852,115 @@ window.BENCHMARK_DATA = {
           {
             "name": "yew-struct-keyed 34_startup-totalbytes",
             "value": "363.7998046875",
+            "unit": ""
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anuvrats06@gmail.com",
+            "name": "Anuvrat",
+            "username": "anuvratsingh"
+          },
+          "committer": {
+            "email": "anuvrats06@gmail.com",
+            "name": "Anuvrat",
+            "username": "anuvratsingh"
+          },
+          "distinct": true,
+          "id": "023dea6a75ed5daa7d5f2ceaaa07d327a1264a2c",
+          "message": "Add ContextHandle in yew::prelude\n\nMade changes in yew/src/lib.rs and updated stderr file with test-overwrite",
+          "timestamp": "2022-01-25T02:02:56+05:30",
+          "tree_id": "801666079eba42a0e0ec1de571f14c53de80131e",
+          "url": "https://github.com/anuvratsingh/yew/commit/023dea6a75ed5daa7d5f2ceaaa07d327a1264a2c"
+        },
+        "date": 1643057454614,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "yew-struct-keyed 01_run1k",
+            "value": "212.0625",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 02_replace1k",
+            "value": "221.4925",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 03_update10th1k_x16",
+            "value": "413.0309999999999",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 04_select1k",
+            "value": "94.686",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 05_swap1k",
+            "value": "97.656",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 06_remove-one-1k",
+            "value": "33.8725",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 07_create10k",
+            "value": "2391.2305",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 08_create1k-after1k_x2",
+            "value": "472.117",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 09_clear1k_x8",
+            "value": "215.6045",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 21_ready-memory",
+            "value": "1.2453231811523438",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 22_run-memory",
+            "value": "1.4578094482421875",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 23_update5-memory",
+            "value": "1.4620819091796875",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 24_run5-memory",
+            "value": "1.510845184326172",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 25_run-clear-memory",
+            "value": "1.1292724609375",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 31_startup-ci",
+            "value": "1734.1639999999998",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 32_startup-bt",
+            "value": "37.56999999999999",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 34_startup-totalbytes",
+            "value": "365.9482421875",
             "unit": ""
           }
         ]
